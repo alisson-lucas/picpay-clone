@@ -6,6 +6,8 @@ export const Wrapper = styled.View`
     flex: 1;
 `;
 
+export const ScrollContainer = styled.ScrollView``;
+
 export const Header = styled(LinearGradient)`
     height: 300px;
 `;
@@ -138,3 +140,25 @@ export const AddLabel = styled.Text`
     font-weight: bold;
     margin-left: 15px;
 `;
+
+export const UseTicketContainer = styled.View`
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+`;
+
+
+export const UseTicketButton = styled.TouchableOpacity`
+    flex-direction: row;
+`;
+
+export const UseTicketLabel = styled.Text`
+    color: #0db060;
+    font-size: 16px;
+    margin-left: 15px;
+    font-weight: bold;
+    text-decoration-line: underline;
+
+`;
+
+
