@@ -5,6 +5,7 @@ import { AntDesign, Ionicons } from '@expo/vector-icons';
 import HomeScreen from './pages/Home';
 import WalletScreen from './pages/Wallet';
 import PayScreen from './pages/Pay';
+import NotificationScreen from './pages/Notifications'
 
 import PayButton from './components/PayButton'
 
@@ -60,7 +61,7 @@ export default function Navigation() {
             <Tab.Screen name="Home" component={HomeScreen} options={{ title: 'Início' }} />
             <Tab.Screen name="Wallet" component={WalletScreen} options={{ title: 'Carteira' }} />
             <Tab.Screen name="Pay" component={PayScreen} options={{ title: '' }}/>
-            <Tab.Screen name="Notifications" component={PayScreen} options={{ title: 'Notificações' }}/>
+            <Tab.Screen name="Notifications" component={NotificationScreen} options={{ title: 'Notificações' }}/>
             <Tab.Screen name="Settings" component={PayScreen} options={{ title: 'Ajustes' }}/>
         </Tab.Navigator>
     );
