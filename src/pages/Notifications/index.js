@@ -1,7 +1,7 @@
 import React from 'react';
 import {View} from 'react-native';
 
-import { Wrapper, Header, HeaderContainer, HeaderTitle, BodyContainer, BodyContent, HeaderButtonContainer, HeaderButtonText } from './styles'
+import { Wrapper, Header, HeaderTitle, BodyContainer, BodyContent, HeaderButtonContainer, HeaderButtonText } from './styles'
 
 export default function Notification() {
     return (
