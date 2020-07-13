@@ -5,6 +5,8 @@ export const Wrapper = styled.SafeAreaView`
     flex: 1;
 `;
 
+export const Container = styled.ScrollView``;
+
 export const Header = styled.View`
     height: 50px;
     margin-top: 16px;
@@ -58,5 +60,13 @@ export const UserInfo = styled.Text`
 export const UserName = styled.Text`
     color: rgba(255, 255, 255, 0.6);
     font-size: 16px;
+    margin-top: 8px;
+`;
+
+export const UserProfileButton = styled.TouchableOpacity``;
+
+export const UserProfile = styled.Text`
+    color: #0db060;
+    font-size: 14px;
     margin-top: 8px;
 `;
