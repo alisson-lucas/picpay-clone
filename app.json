@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "HelloWorld",
+    "name": "PicPay-clone",
     "slug": "picpay",
     "platforms": [
       "ios",

@@ -45,7 +45,7 @@ const items = [
     {
         key: String(Math.random()),
         img: img7,
-        label: 'Faq'
+        label: 'Cobrar'
     }
 ];
 
